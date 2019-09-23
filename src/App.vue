@@ -4,7 +4,6 @@
     <h1>Bienvenidos al taller de Vue.js</h1>
     <router-view></router-view>
     <br>
-    <router-link to="/Users">Go to users</router-link>
   </div>
 </template>
 

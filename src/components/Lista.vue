@@ -1,6 +1,6 @@
 <template>
   <div class="lista">
-      Lista {{ users.length }}
+      La lista contiene actualmente {{ users.length }} usuarios
       <ul>
          <li v-bind:key="user.id" v-for="user in users">{{ user.name }}</li> 
       </ul>

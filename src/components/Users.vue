@@ -21,9 +21,6 @@ export default {
   components: {
     Lista
   },
-  props: {
-    
-  },
   methods: {
     agregarNuevo(){
       this.users.push({ id:this.ids, name:this.nombre });
